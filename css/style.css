@@ -1,0 +1,119 @@
+body {
+  max-width: 1202px;
+  max-height: 887px;
+}
+
+.main {
+  margin-bottom: 138px;
+}
+.container {
+  max-width: 1200px;
+  max-height: 302px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Cera-Pro";
+}
+
+.left-side,
+.right-side {
+  max-width: 586px;
+  max-height: 302px;
+  background-color: #fbfbfb;
+  display: flex;
+  padding: 10px;
+  position: relative;
+}
+
+.left-side {
+  margin-right: 28px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+.text-content h2 {
+  font-family: "Cera-Pro";
+  font-weight: 900;
+  text-align: right;
+}
+.text-content p {
+  font-family: "Cera-Pro";
+  font-weight: 400;
+  text-align: right;
+}
+
+.FindMore {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #46a358;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-family: "Cera-Pro";
+}
+
+.FindMore img {
+  width: 18px;
+  height: 18px;
+  height: auto;
+}
+h1 {
+  text-align: center;
+  margin: 50px 0 0 0;
+  font-family: "Cera-Pro";
+}
+.textP {
+  text-align: center;
+  margin: 15px 0 35px;
+  font-family: "Cera-Pro";
+}
+
+.ContainerOtherInfo {
+  max-width: 1202px;
+  max-height: 362px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side1,
+.side2,
+.side3,
+.side4 {
+  max-width: 268px;
+  max-height: 362px;
+  font-family: "Cera-Pro";
+}
+
+.arroww {
+  width: 16px;
+  height: auto;
+}
+
+.side1 p img,
+.side2 p img,
+.side3 p img,
+.side4 p img {
+  vertical-align: middle;
+}
+
+.greenReadMore {
+  color: #46a358;
+}
+.GreenTextP {
+  color: #46a358;
+}
+.GrayTexth2 {
+  color: #3d3d3d;
+}
+.textP,
+.GrayTextP {
+  color: #727272;
+}
